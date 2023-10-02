@@ -1,0 +1,131 @@
+body {
+    margin: 50px;
+    background-color:#f5f3f4;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+}
+
+a:hover {
+  color: #e5383b;
+  text-shadow: -2px 2px 0px #000;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f3f4;
+    
+}
+
+.thrutitle {
+    position: justified;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    mix-blend-mode: difference;
+    font-size: 40px;
+    font-style:italic;
+    padding:0 10px 10px 10px;
+    color: #161a1d;
+    filter: invert(100%);
+    margin: 50px -250px;
+    text-shadow: -100px 0px 30px #fff, -100px 0px 30px #fff;
+                
+}
+
+.text {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding:5px;
+        margin-bottom:10px;
+        line-height:10px;
+        border-bottom:3px dashed #e5383b;
+}
+
+.small {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-decoration:none;
+}
+
+.email {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+    font-style: italic;
+    text-transform:uppercase;
+    text-shadow: -2px 2px 0px #ba181b;
+    line-height:0px;
+    margin-bottom: 10px;
+    border-bottom:5px solid #e5383b;
+    }
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin-top:20px;
+    padding: 10px;
+    border: 4px dashed #f5f3f4;
+    border-radius: 100%;
+    filter:grayscale(1);
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    justify-content:space-between;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    background: #161a1d;
+    color: #0b090a;
+    border-left: 8px solid #a4161a;
+    border-bottom: 8px solid #660708;
+    border-radius: 20px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.header {
+    width: 300px;
+    height: 200px;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    background-position:40% 100%;
+    padding:40px -50px;
+    margin:0px;
+    border-radius:10px 0px 0px 10px;
+           
+}
+
+.bio {
+    margin-top: 70px;
+    margin-left: 15px;
+    line-height:15px;
+    display: block;
+    padding: 10px;
+    text-align:center;
+    font-size:12px;
+    color: #f5f3f4;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s) done
+- add border radius done
+- shuffle the layout in prog
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
